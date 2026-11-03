@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: telecom-app-config
+  namespace: gitops-lab
+data:
+  application: "5g-core-demo"
+  network-function: "PCC"
+  environment: "lab"
+  log-level: "INFO"
